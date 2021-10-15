@@ -1,0 +1,43 @@
+#ptimer{
+    float: right;
+}
+
+#pscore{
+    float: left;
+}
+
+body{
+    background-color: aqua;
+
+}
+h1{
+    color: brown;
+    background-color: burlywood;
+}
+
+#show_sketch{
+
+    float: right;
+    background-color: coral;
+}
+
+canvas{
+    border: 5px solid grey;
+    border-radius: 20px;
+    animation-name: pranav;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pranav{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color: crimson;
+}
